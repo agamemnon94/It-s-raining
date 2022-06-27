@@ -20,8 +20,8 @@ function rainFall() {
   waterDrop.style.fontSize = Math.random() * 7 + 'px';
   // waterDrop.style.width = Math.random() * 10 + 'px';
   // waterDrop.style.height = Math.random() * 50 + 'px';
-  waterDrop.style.animationDuration = Math.random() * 3.5 + 's';
-  waterDrop.style.opacity = Math.random() + 0.2;
+  waterDrop.style.animationDuration = Math.random() * 2 + 's';
+  waterDrop.style.opacity = Math.random() + 0.3;
   waterDrop.style.left = Math.random() * window.innerWidth + 'px';
 
   body.appendChild(waterDrop);
