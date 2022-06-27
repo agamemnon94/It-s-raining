@@ -18,15 +18,17 @@ body {
   display: flex;
   flex-direction: column;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top right,
     var(--dark),
     var(--concretFull),
     var(--greensetFull),
     var(--clayCourtFull),
     var(--dark)
-  );
-  background-size: 100% 100%;
+  ); */
+  background: url(/zdenek-machacek-LRhLPnu4gjI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .drop {
