@@ -28,6 +28,6 @@ function rainFall() {
 
   setTimeout(() => {
     waterDrop.remove();
-  }, 4000)
+  }, 2000)
 }
 console.log(body);
